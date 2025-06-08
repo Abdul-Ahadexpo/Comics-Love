@@ -58,7 +58,7 @@ export const calculateCompatibility = (sign1: string, sign2: string, day1: strin
     }
   };
 
-  // Special override for Abdul Ahad (2007-11-29) and Charu (2010-11-18)
+  // Special override for Abdul Ahad/Nazim (2007-11-29) and Charu (2010-11-18)
   const date1Str = date1.toISOString().split('T')[0];
   const date2Str = date2.toISOString().split('T')[0];
   
