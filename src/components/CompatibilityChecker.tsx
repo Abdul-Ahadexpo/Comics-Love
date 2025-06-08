@@ -368,7 +368,7 @@ export const CompatibilityChecker: React.FC = () => {
                   <p className="font-bold text-gray-800 dark:text-white text-xl">
                     🌟 INFINITE MATCH DETECTED! 🌟
                     <br />
-                    <span className="text-lg">Abdul Ahad & Charu = Pure Magic! ✨</span>
+                    <span className="text-lg">Nazim & Charu = Pure Magic! ✨</span>
                   </p>
                 </div>
               )}
