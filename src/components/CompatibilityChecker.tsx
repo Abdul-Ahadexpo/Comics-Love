@@ -7,6 +7,7 @@ import { saveToLocalStorage, getFromLocalStorage } from '../utils/storage';
 import { MilestoneChecker } from './MilestoneChecker';
 import { LoveTimeline } from './LoveTimeline';
 import { CoupleProfileSaver } from './CoupleProfileSaver';
+import { CelebrityShip } from './CelebrityShip';
 
 export const CompatibilityChecker: React.FC = () => {
   const [person1Date, setPerson1Date] = useState('');
@@ -216,6 +217,14 @@ export const CompatibilityChecker: React.FC = () => {
             </div>
           </div>
 
+          {/* Celebrity Ship Tool */}
+          <div className="text-center">
+            <CelebrityShip />
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+              💡 Find any celebrity's birthday and check your compatibility!
+            </p>
+          </div>
+
           {result && (
             <div className="space-y-6">
               {/* Zodiac Display */}
@@ -368,7 +377,7 @@ export const CompatibilityChecker: React.FC = () => {
                   <p className="font-bold text-gray-800 dark:text-white text-xl">
                     🌟 INFINITE MATCH DETECTED! 🌟
                     <br />
-                    <span className="text-lg">Nazim & Charu = Pure Magic! ✨</span>
+                    <span className="text-lg">Abdul Ahad & Charu = Pure Magic! ✨</span>
                   </p>
                 </div>
               )}
