@@ -13,7 +13,7 @@
 /* Mobile-only font styling */
 @media screen and (max-width: 768px) {
   * {
-    font-family: 'Comic Neue', 'Baloo 2', 'Nunito', cursive, sans-serif !important;
+    font-family: 'Comic Neue', 'Baloo 2', 'Nunito', sans-serif !important;
   }
   
   /* Ensure mobile text is readable */
