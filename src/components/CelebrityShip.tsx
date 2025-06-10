@@ -69,27 +69,24 @@ export const CelebrityShip: React.FC = () => {
     { name: 'V (Kim Taehyung)', category: '🔥 BTS' },
     { name: 'Jimin', category: '🔥 BTS' },
     { name: 'SUGA', category: '🔥 BTS' },
-    { name: 'RM', category: '🔥 BTS' },
-    { name: 'Jin', category: '🔥 BTS' },
+    { name: 'RM (musician)', category: '🔥 BTS' },
+    { name: 'Jin (singer)', category: '🔥 BTS' },
     { name: 'J-Hope', category: '🔥 BTS' },
     
     // Popular Celebrities
-  { name: 'Lisa (BLACKPINK)', category: '⭐ Celebs' },
-  { name: 'Jennie (BLACKPINK)', category: '⭐ Celebs' },
-  { name: 'Rosé (BLACKPINK)', category: '⭐ Celebs' },
-  { name: 'Jisoo (BLACKPINK)', category: '⭐ Celebs' },
+  { name: 'Lisa (rapper)', category: '⭐ Celebs' },
+  { name: 'Jennie (singer)', category: '⭐ Celebs' },
+  { name: 'Rosé (singer)', category: '⭐ Celebs' },
+  { name: 'Jisoo', category: '⭐ Celebs' },
   { name: 'IU (entertainer)', category: '⭐ Celebs' },
     
     // Anime Characters (with official birthdays)
-  { name: 'Makima (Chainsaw Man)', category: '✨ Anime', note: 'Sep 3' },
-  { name: 'Gojo Satoru (Jujutsu Kaisen)', category: '✨ Anime', note: 'Dec 7' },
-  { name: 'Levi Ackerman (Attack on Titan)', category: '✨ Anime', note: 'Dec 25' },
-  { name: 'Tanjiro Kamado (Demon Slayer)', category: '✨ Anime', note: 'Jul 14' },
-  { name: 'Goku (Dragon Ball)', category: '✨ Anime', note: 'Apr 16' },
-  { name: 'Rengoku Kyojuro (Demon Slayer)', category: '✨ Anime', note: 'Oct 10' },
-  { name: 'Zero Two (Darling in the Franxx)', category: '✨ Anime', note: 'Feb 2' },
-  { name: 'Todoroki Shoto (My Hero Academia)', category: '✨ Anime', note: 'Jan 11' },
-  { name: 'Mikasa Ackerman (Attack on Titan)', category: '✨ Anime', note: 'Feb 10' },
+  { name: 'Makima', category: '✨ Anime', note: 'Sep 3' },
+  { name: 'Satoru Gojo', category: '✨ Anime', note: 'Dec 7' },
+  { name: 'Levi Ackerman', category: '✨ Anime', note: 'Dec 25' },
+  { name: 'Zero Two', category: '✨ Anime', note: 'Feb 2' },
+  { name: 'Shoto Todoroki', category: '✨ Anime', note: 'Jan 11' },
+  { name: 'Mikasa Ackerman', category: '✨ Anime', note: 'Feb 10' },
   ];
 
   const groupedCelebs = popularCelebs.reduce((acc, celeb) => {
