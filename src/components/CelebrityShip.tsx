@@ -66,7 +66,7 @@ export const CelebrityShip: React.FC = () => {
   const popularCelebs = [
     // BTS Members
     { name: 'Jungkook', category: '🔥 BTS' },
-    { name: 'V (Kim Taehyung)', category: '🔥 BTS' },
+    { name: 'V (singer)', category: '🔥 BTS' },
     { name: 'Jimin', category: '🔥 BTS' },
     { name: 'SUGA', category: '🔥 BTS' },
     { name: 'RM (musician)', category: '🔥 BTS' },
