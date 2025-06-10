@@ -78,7 +78,7 @@ export const CelebrityShip: React.FC = () => {
   { name: 'Jennie (BLACKPINK)', category: '⭐ Celebs' },
   { name: 'Rosé (BLACKPINK)', category: '⭐ Celebs' },
   { name: 'Jisoo (BLACKPINK)', category: '⭐ Celebs' },
-  { name: 'IU', category: '⭐ Celebs' },
+  { name: 'IU (entertainer)', category: '⭐ Celebs' },
     
     // Anime Characters (with official birthdays)
   { name: 'Makima (Chainsaw Man)', category: '✨ Anime', note: 'Sep 3' },
