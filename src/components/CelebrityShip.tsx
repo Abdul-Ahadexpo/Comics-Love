@@ -74,22 +74,22 @@ export const CelebrityShip: React.FC = () => {
     { name: 'J-Hope', category: '🔥 BTS' },
     
     // Popular Celebrities
-    { name: 'Zendaya', category: '⭐ Celebs' },
-    { name: 'Tom Holland', category: '⭐ Celebs' },
-    { name: 'Billie Eilish', category: '⭐ Celebs' },
-    { name: 'Timothée Chalamet', category: '⭐ Celebs' },
-    { name: 'Ariana Grande', category: '⭐ Celebs' },
-    { name: 'Taylor Swift', category: '⭐ Celebs' },
-    { name: 'Harry Styles', category: '⭐ Celebs' },
-    { name: 'Olivia Rodrigo', category: '⭐ Celebs' },
+  { name: 'Lisa (BLACKPINK)', category: '⭐ Celebs' },
+  { name: 'Jennie (BLACKPINK)', category: '⭐ Celebs' },
+  { name: 'Rosé (BLACKPINK)', category: '⭐ Celebs' },
+  { name: 'Jisoo (BLACKPINK)', category: '⭐ Celebs' },
+  { name: 'IU', category: '⭐ Celebs' },
     
     // Anime Characters (with official birthdays)
-    { name: 'Naruto Uzumaki', category: '✨ Anime', note: 'Oct 10' },
-    { name: 'Goku', category: '✨ Anime', note: 'Apr 16' },
-    { name: 'Luffy', category: '✨ Anime', note: 'May 5' },
-    { name: 'Levi Ackerman', category: '✨ Anime', note: 'Dec 25' },
-    { name: 'Gojo Satoru', category: '✨ Anime', note: 'Dec 7' },
-    { name: 'Tanjiro Kamado', category: '✨ Anime', note: 'Jul 14' },
+  { name: 'Makima (Chainsaw Man)', category: '✨ Anime', note: 'Sep 3' },
+  { name: 'Gojo Satoru (Jujutsu Kaisen)', category: '✨ Anime', note: 'Dec 7' },
+  { name: 'Levi Ackerman (Attack on Titan)', category: '✨ Anime', note: 'Dec 25' },
+  { name: 'Tanjiro Kamado (Demon Slayer)', category: '✨ Anime', note: 'Jul 14' },
+  { name: 'Goku (Dragon Ball)', category: '✨ Anime', note: 'Apr 16' },
+  { name: 'Rengoku Kyojuro (Demon Slayer)', category: '✨ Anime', note: 'Oct 10' },
+  { name: 'Zero Two (Darling in the Franxx)', category: '✨ Anime', note: 'Feb 2' },
+  { name: 'Todoroki Shoto (My Hero Academia)', category: '✨ Anime', note: 'Jan 11' },
+  { name: 'Mikasa Ackerman (Attack on Titan)', category: '✨ Anime', note: 'Feb 10' },
   ];
 
   const groupedCelebs = popularCelebs.reduce((acc, celeb) => {
